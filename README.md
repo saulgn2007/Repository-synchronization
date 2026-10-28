@@ -62,11 +62,10 @@ name: Sincronizar con Organizacion
 on:
   push:
     branches:
-      - main # Cambiar a 'master' si tu rama principal utiliza ese nombre
+      - main
 
 jobs:
   sync:
-    # Evita la ejecucion dentro de la organización para no generar errores por falta de token
     if: github.repository_owner == 'TU_USUARIO_GITHUB'
     runs-on: ubuntu-latest
     steps:
