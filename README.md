@@ -4,7 +4,7 @@
 
 Al trabajar en proyectos alojados en organizaciones de GitHub (educativas, de cursos o de empresas), es habitual enfrentarse a los siguientes problemas:
 
-* **Pérdida de trabajo al finalizar el curso/proyecto:** Las organizaciones suelen borrar, ocultar o archivar sus repositorios al terminar el periodo lectivo o contrato, eliminando tu portafolio personal.
+* **Pérdida de trabajo al finalizar el curso/proyecto:** Las organizaciones suelen borrar, ocultar o archivar sus repositorios al terminar el periodo lectivo o contrato, eliminando tu repositorio personal.
 * **Falta de una copia de seguridad propia:** Trabajar únicamente en la organización te deja sin un respaldo privado que dependa 100% de ti.
 * **Riesgo por pruebas intermedias:** Subir cambios inacabados a la organización puede entorpecer las entregas oficiales.
 * **Proceso manual e ineficiente:** Mantener dos repositorios sincronizados mediante descargas y resubidas manuales genera errores y pérdida de tiempo.
