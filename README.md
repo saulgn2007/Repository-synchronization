@@ -54,7 +54,7 @@ El token le da permiso a GitHub Actions para escribir en el repositorio de la or
 
 1. En la raíz de tu repositorio privado, crea la ruta de carpetas `.github/workflows/`.
 2. Dentro de `workflows`, crea el archivo `sync.yml`.
-3. Pega el siguiente código en el archivo `.github/workflows/sync.yml`:
+3. Pega el siguiente código en el archivo `.github/workflows/sync.yml`:ç
 
 ```yaml
 name: Sincronizar con Organizacion
@@ -80,3 +80,15 @@ jobs:
           git config --global user.email "TU_EMAIL@users.noreply.github.com"
           git remote add org https://TU_USUARIO_GITHUB:${{ secrets.ORG_TOKEN }}@[github.com/NOMBRE_ORGANIZACION/NOMBRE_REPOSITORIO.git](https://github.com/NOMBRE_ORGANIZACION/NOMBRE_REPOSITORIO.git)
           git push org HEAD:main --force
+
+
+###📝 3.1 Campos a modificar en sync.yml
+1. Antes de guardar el archivo, sustituye los valores del código por tus datos reales:
+2. TU_USUARIO_GITHUB: Tu nombre de usuario exacto en GitHub (en la línea if, en user.name y en la URL).
+3. TU_EMAIL: Tu correo electrónico registrado en GitHub (en user.email).
+4. NOMBRE_ORGANIZACION: Nombre exacto de la organización de GitHub de destino.
+5. NOMBRE_REPOSITORIO: Nombre exacto del repositorio receptor dentro de la organización.
+6. main: Si la rama principal de tu repositorio o la del destino se llama master, cámbialo en branches: (línea 6) y en git push org HEAD:main (última línea).
+
+
+
